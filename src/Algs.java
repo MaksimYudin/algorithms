@@ -4,10 +4,18 @@ import java.util.List;
 
 public class Algs {
     public static void main(String[] args) {
-        int[] arr = {1, 2, 4, 6, 8, 9, 11, 14, 16, 22, 28, 33, 44};
-        BinarySearch bs = new BinarySearch();
-        System.out.println(String.valueOf(bs.binarySerach(arr, 14)));
-        System.out.println(String.valueOf(bs.binarySearchRecursive(arr, 14, 0, arr.length - 1)));
+
+        StringExamples se = new StringExamples();
+        System.out.println(se.reverseRecursive("javax"));
+        System.out.println(se.revers1("javax"));
+        System.out.println(se.revers2("javax"));
+        System.out.println(se.revers3("javax"));
+
+//        int[] arr = {1, 2, 4, 6, 8, 9, 11, 14, 16, 22, 28, 33, 44};
+//        BinarySearch bs = new BinarySearch();
+//        System.out.println(String.valueOf(bs.binarySerach(arr, 14)));
+//        System.out.println(String.valueOf(bs.binarySearchRecursive(arr, 14, 0, arr.length - 1)));
+
 //        String str = "";
 //        System.out.printf(String.valueOf(10));
 
