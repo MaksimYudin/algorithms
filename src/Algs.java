@@ -4,13 +4,20 @@ import java.util.List;
 
 public class Algs {
     public static void main(String[] args) {
-        int n = 50;
-        long[] mem = new long[n + 1];
-        Arrays.fill(mem, -1);
+        int[] arr = {1, 2, 4, 6, 8, 9, 11, 14, 16, 22, 28, 33, 44};
+        BinarySearch bs = new BinarySearch();
+        System.out.println(String.valueOf(bs.binarySerach(arr, 14)));
+        System.out.println(String.valueOf(bs.binarySearchRecursive(arr, 14, 0, arr.length - 1)));
+//        String str = "";
+//        System.out.printf(String.valueOf(10));
 
-        System.out.println(fibNaiveMem(n, mem));
-        //System.out.println(calcFibonachiRecursive(50));
-        System.out.println(fibFast(50));
+//        int n = 50;
+//        long[] mem = new long[n + 1];
+//        Arrays.fill(mem, -1);
+//
+//        System.out.println(fibNaiveMem(n, mem));
+//        //System.out.println(calcFibonachiRecursive(50));
+//        System.out.println(fibFast(50));
     }
 
     // Вычисление числа фибоначчм
