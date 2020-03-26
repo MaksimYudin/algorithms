@@ -1,5 +1,6 @@
 import java.util.Arrays;
-
+// do string sort
+// {"bcdef", "dbaqc", "abcde", "omadd", "bbbbb"}
 public class RadixSort {
 
     // A utility function to get maximum value in arr[]
